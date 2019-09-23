@@ -52,10 +52,14 @@ payload: {
 1. Install the Netlify command-line tool `npm i netlify-cli -g`
 2. Add the FaunaDB Add-on for Netlify `netlify addons:create fauna`
 3. Authenticate the Add-on `netlify addons:auth fauna`
+4. set an environment variable called SLACK_WEBHOOK_URL pointing `https://hooks.slack.com/services/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`
 
 #### Mutate the state in the orders reducer
 
 1. start your lambda function and the gatsby development server with `netlify dev`
 2. after `LOAD_ORDER_HISTORY_SUCCESS` action you have to populate the state with the payload
 3. after `CHECKOUT_SUCCESS` action you have to add the new item to the state
+
+#### Create dynamic route
+
 4. create a new dynamic route where you can list your last order, you can use the `Orders` component.
