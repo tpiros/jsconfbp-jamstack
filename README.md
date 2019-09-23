@@ -42,3 +42,13 @@ payload: {
   slug: ''
 }
 ```
+
+## Part 2
+
+### Tasks
+
+#### Create database
+
+1. Install the Netlify command-line tool `npm i netlify-cli -g`
+2. Add the FaunaDB Add-on for Netlify `netlify addons:create fauna`
+3. Authenticate the Add-on `netlify addons:auth fauna`
