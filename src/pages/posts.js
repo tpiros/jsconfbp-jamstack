@@ -44,6 +44,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            author
             title
             date(formatString: "MMMM DD, YYYY")
           }
