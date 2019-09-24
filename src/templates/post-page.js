@@ -8,7 +8,9 @@ export default function Template({ data }) {
     <article>
       <header>
         <h1 className="font-bold text-3xl mb-2">{frontmatter.title}</h1>
-        <p className="block mb-5">{frontmatter.date}</p>
+        <p className="block mb-5">
+          {frontmatter.date} by {frontmatter.author}
+        </p>
       </header>
       <section
         className="markdown"

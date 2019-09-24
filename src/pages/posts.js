@@ -16,7 +16,7 @@ const PostsPage = ({ data }) => {
             </Link>
           </h3>
           <small className="uppercase font-semibold text-gray-600">
-            {node.frontmatter.date}
+            {node.frontmatter.date} by {node.frontmatter.author}
           </small>
         </header>
         <section>
