@@ -35,7 +35,7 @@ collections:
           default: 'product-page',
         }
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Image', name: 'imgae', widget: 'image' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - {
           label: 'Price',
           name: 'price',
